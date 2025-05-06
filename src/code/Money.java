@@ -1,3 +1,5 @@
+package code;
+
 public class Money {
     public static final Money ONE_DOLLAR = new Money(1.0);
     private final long amount;

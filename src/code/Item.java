@@ -1,3 +1,5 @@
+package code;
+
 public class Item {
     public String name;
     public Money price;
