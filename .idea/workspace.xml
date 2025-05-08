@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96325d4f-f610-4126-bf75-afe56491f7d4" name="Changes" comment="Added classes. Finished Item.java and Money.java">
-      <change afterPath="$PROJECT_DIR$/src/code/Group.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/code/PersonTest.java" afterDir="false" />
+    <list default="true" id="96325d4f-f610-4126-bf75-afe56491f7d4" name="Changes" comment="Added test files, errors present during testing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CST338-GroupExpences.iml" beforeDir="false" afterPath="$PROJECT_DIR$/CST338-GroupExpences.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Group.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Money.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/code/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/code/PersonTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,9 +31,9 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2wjgkuUr3i0ZzhZ7FiRUOPmxnIu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,8 +45,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.PersonTest.addCharge.executor": "Run",
     "JUnit.PersonTest.getCharge.executor": "Run",
     "JUnit.PersonTest.getName.executor": "Run",
+    "JUnit.PersonTest.removeCharge.executor": "Run",
     "Repository.Attach.Annotations": "false",
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
@@ -83,7 +81,23 @@
       <recent name="code" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.getCharge">
+  <component name="RunManager" selected="JUnit.PersonTest.removeCharge">
+    <configuration name="PersonTest.addCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CST338-GroupExpences" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code" />
+      <option name="MAIN_CLASS_NAME" value="code.PersonTest" />
+      <option name="METHOD_NAME" value="addCharge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest.getCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
@@ -116,8 +130,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="PersonTest.removeCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CST338-GroupExpences" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code" />
+      <option name="MAIN_CLASS_NAME" value="code.PersonTest" />
+      <option name="METHOD_NAME" value="removeCharge" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PersonTest.removeCharge" />
+        <item itemvalue="JUnit.PersonTest.addCharge" />
         <item itemvalue="JUnit.PersonTest.getCharge" />
         <item itemvalue="JUnit.PersonTest.getName" />
       </list>
@@ -138,7 +170,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1746560544174</updated>
-      <workItem from="1746560545221" duration="4145000" />
+      <workItem from="1746560545221" duration="4194000" />
+      <workItem from="1746730544861" duration="1519000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -164,7 +197,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746561683310</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added test files, errors present during testing">
+      <option name="closed" value="true" />
+      <created>1746564743643</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746564743643</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -174,6 +215,7 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="Added classes. Finished Person.java" />
     <MESSAGE value="Added classes. Finished Item.java and Money.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added classes. Finished Item.java and Money.java" />
+    <MESSAGE value="Added test files, errors present during testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added test files, errors present during testing" />
   </component>
 </project>

@@ -5,7 +5,7 @@ import java.util.ArrayList;
 public class Person {
     public double totalDebt;
     public String name;
-    public ArrayList<Money> charge = new ArrayList<>();
+    public ArrayList<Money> charges = new ArrayList<>();
 
     public Person(double totalDebt , String name) {
         this.totalDebt = totalDebt;
@@ -13,33 +13,33 @@ public class Person {
     }
 
     public void addCharge(Money charge) {
-        this.charge.add(charge);
+        this.charges.add(charge);
     }
 
     public void removeCharge(Money charge) {
-        this.charge.remove(charge);
+        if (this.charges.isEmpty()) {
+            System.out.println("List of charges is empty");
+        }
+        this.charges.remove(charge);
     }
 
     public double getTotalDebt() {
-        return totalDebt;
-    }
-
-    public void setTotalDebt() {
         double total = 0.0;
-        if (!charge.isEmpty()) {
-            for (int i = 0 ; i < charge.size() ; i++) {
-                total += charge.get(i).getAmount();
+        if (!charges.isEmpty()) {
+            for (int i = 0; i < charges.size() ; i++) {
+                total += charges.get(i).getAmount();
             }
         }
         this.totalDebt = total;
+        return totalDebt;
     }
 
-    public ArrayList<Money> getCharge() {
-        return charge;
+    public ArrayList<Money> getCharges() {
+        return charges;
     }
 
-    public void setCharge(ArrayList<Money> charge) {
-        this.charge = charge;
+    public void setCharges(ArrayList<Money> charges) {
+        this.charges = charges;
     }
 
     public String getName() {

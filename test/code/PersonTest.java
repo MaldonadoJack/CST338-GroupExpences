@@ -16,28 +16,29 @@ class PersonTest {
 
     @org.junit.jupiter.api.Test
     void addCharge() {
+        arson.addCharge(new Money(4.0));
+        arson.addCharge(new Money(6.50));
+        arson.addCharge(new Money(1.0));
+        for (int i = 0; i < arson.charges.size() ; i++) {
+            System.out.println(arson.charges.get(i) + " ");
+        }
     }
 
     @org.junit.jupiter.api.Test
     void removeCharge() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void getTotalDebt() {
-    }
-
-    @org.junit.jupiter.api.Test
-    void setTotalDebt() {
+        jack.addCharge(new Money(10.0));
+        jack.addCharge(new Money(13.79));
+        jack.addCharge(new Money(4.99));
+        jack.removeCharge(new Money(10.0));
+        assertEquals(18.78 , jack.getTotalDebt());
     }
 
     @org.junit.jupiter.api.Test
     void getCharge() {
-        jack.addCharge(new Money(1.0));
-        assertEquals(1.0 , jack.getTotalDebt());
-    }
-
-    @org.junit.jupiter.api.Test
-    void setCharge() {
+        jack.addCharge(new Money(10.0));
+        jack.addCharge(new Money(13.79));
+        jack.addCharge(new Money(4.99));
+        assertEquals(28.78 , jack.getTotalDebt());
     }
 
     @org.junit.jupiter.api.Test
@@ -47,7 +48,4 @@ class PersonTest {
         assertEquals("Jared" , jared.getName());
     }
 
-    @org.junit.jupiter.api.Test
-    void setName() {
-    }
 }
