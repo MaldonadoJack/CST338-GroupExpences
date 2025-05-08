@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96325d4f-f610-4126-bf75-afe56491f7d4" name="Changes" comment="Added test files, errors present during testing">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Money.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Money.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/code/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/code/PersonTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/code/PersonTest.java" afterDir="false" />
+    <list default="true" id="96325d4f-f610-4126-bf75-afe56491f7d4" name="Changes" comment="Finished PersonTest.java testing, person should work as needed">
+      <change afterPath="$PROJECT_DIR$/test/code/ItemTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +42,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.ItemTest.getName.executor": "Run",
     "JUnit.PersonTest.addCharge.executor": "Run",
     "JUnit.PersonTest.getCharge.executor": "Run",
     "JUnit.PersonTest.getName.executor": "Run",
@@ -81,7 +79,39 @@
       <recent name="code" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.PersonTest.removeCharge">
+  <component name="RunManager" selected="JUnit.ItemTest.getPrice">
+    <configuration name="ItemTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CST338-GroupExpences" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code" />
+      <option name="MAIN_CLASS_NAME" value="code.ItemTest" />
+      <option name="METHOD_NAME" value="getName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemTest.getPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="CST338-GroupExpences" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="code.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="code" />
+      <option name="MAIN_CLASS_NAME" value="code.ItemTest" />
+      <option name="METHOD_NAME" value="getPrice" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="PersonTest.addCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
@@ -114,22 +144,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="CST338-GroupExpences" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="code.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="code" />
-      <option name="MAIN_CLASS_NAME" value="code.PersonTest" />
-      <option name="METHOD_NAME" value="getName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PersonTest.removeCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
@@ -148,10 +162,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemTest.getPrice" />
+        <item itemvalue="JUnit.ItemTest.getName" />
         <item itemvalue="JUnit.PersonTest.removeCharge" />
         <item itemvalue="JUnit.PersonTest.addCharge" />
         <item itemvalue="JUnit.PersonTest.getCharge" />
-        <item itemvalue="JUnit.PersonTest.getName" />
       </list>
     </recent_temporary>
   </component>
@@ -171,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746560544174</updated>
       <workItem from="1746560545221" duration="4194000" />
-      <workItem from="1746730544861" duration="1519000" />
+      <workItem from="1746730544861" duration="2051000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -205,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746564743643</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Finished PersonTest.java testing, person should work as needed">
+      <option name="closed" value="true" />
+      <created>1746732257392</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1746732257392</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +239,7 @@
     <MESSAGE value="Added classes. Finished Person.java" />
     <MESSAGE value="Added classes. Finished Item.java and Money.java" />
     <MESSAGE value="Added test files, errors present during testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added test files, errors present during testing" />
+    <MESSAGE value="Finished PersonTest.java testing, person should work as needed" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished PersonTest.java testing, person should work as needed" />
   </component>
 </project>
