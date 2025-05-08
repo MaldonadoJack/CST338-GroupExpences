@@ -43,51 +43,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "JUnit.GroupTest.addItem.executor": "Run",
-    "JUnit.GroupTest.addMember.executor": "Run",
-    "JUnit.GroupTest.changeGroupName.executor": "Run",
-    "JUnit.GroupTest.deleteGroup.executor": "Run",
-    "JUnit.GroupTest.getGroupName.executor": "Run",
-    "JUnit.GroupTest.getTotalDebt.executor": "Run",
-    "JUnit.GroupTest.isEmptyGroup.executor": "Run",
-    "JUnit.GroupTest.isEmptyItem.executor": "Run",
-    "JUnit.GroupTest.listGroup.executor": "Run",
-    "JUnit.GroupTest.listItems.executor": "Run",
-    "JUnit.GroupTest.removeMember.executor": "Run",
-    "JUnit.ItemTest.getName.executor": "Run",
-    "JUnit.ItemTest.getPrice.executor": "Run",
-    "JUnit.MoneyTest.add.executor": "Run",
-    "JUnit.MoneyTest.getAmount.executor": "Run",
-    "JUnit.MoneyTest.getAmountString.executor": "Run",
-    "JUnit.MoneyTest.subtract.executor": "Run",
-    "JUnit.PersonTest.addCharge.executor": "Run",
-    "JUnit.PersonTest.getCharge.executor": "Run",
-    "JUnit.PersonTest.getName.executor": "Run",
-    "JUnit.PersonTest.removeCharge.executor": "Run",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "git-widget-placeholder": "TuesdayBranch",
-    "jdk.selected.JAVA_MODULE": "openjdk-23",
-    "kotlin-language-version-configured": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.45402297",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;JUnit.GroupTest.addItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.addMember.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.changeGroupName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.deleteGroup.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.getGroupName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.getTotalDebt.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.isEmptyGroup.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.isEmptyItem.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.listGroup.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.listItems.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.GroupTest.removeMember.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ItemTest.getName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.ItemTest.getPrice.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoneyTest.add.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoneyTest.getAmount.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoneyTest.getAmountString.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.MoneyTest.subtract.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.addCharge.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.getCharge.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.getName.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.PersonTest.removeCharge.executor&quot;: &quot;Run&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;TuesdayBranch&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-23&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.45402297&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
@@ -99,8 +99,8 @@
       <recent name="code" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GroupTest.getTotalDebt">
-    <configuration name="GroupTest.changeGroupName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="GroupTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
         <pattern>
@@ -110,8 +110,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="code" />
       <option name="MAIN_CLASS_NAME" value="code.GroupTest" />
-      <option name="METHOD_NAME" value="changeGroupName" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -182,11 +181,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GroupTest" />
         <item itemvalue="JUnit.GroupTest.getTotalDebt" />
         <item itemvalue="JUnit.GroupTest.listItems" />
         <item itemvalue="JUnit.GroupTest.listGroup" />
         <item itemvalue="JUnit.GroupTest.deleteGroup" />
-        <item itemvalue="JUnit.GroupTest.changeGroupName" />
       </list>
     </recent_temporary>
   </component>
