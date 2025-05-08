@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96325d4f-f610-4126-bf75-afe56491f7d4" name="Changes" comment="Finished PersonTest.java testing, person should work as needed">
-      <change afterPath="$PROJECT_DIR$/test/code/ItemTest.java" afterDir="false" />
+    <list default="true" id="96325d4f-f610-4126-bf75-afe56491f7d4" name="Changes" comment="Finished MoneyTest.java, should work as intended">
+      <change afterPath="$PROJECT_DIR$/test/code/GroupTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/Group.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Group.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/code/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/code/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +46,23 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Downloaded.Files.Path.Enabled": "false",
+    "JUnit.GroupTest.addItem.executor": "Run",
+    "JUnit.GroupTest.addMember.executor": "Run",
+    "JUnit.GroupTest.changeGroupName.executor": "Run",
+    "JUnit.GroupTest.deleteGroup.executor": "Run",
+    "JUnit.GroupTest.getGroupName.executor": "Run",
+    "JUnit.GroupTest.getTotalDebt.executor": "Run",
+    "JUnit.GroupTest.isEmptyGroup.executor": "Run",
+    "JUnit.GroupTest.isEmptyItem.executor": "Run",
+    "JUnit.GroupTest.listGroup.executor": "Run",
+    "JUnit.GroupTest.listItems.executor": "Run",
+    "JUnit.GroupTest.removeMember.executor": "Run",
     "JUnit.ItemTest.getName.executor": "Run",
+    "JUnit.ItemTest.getPrice.executor": "Run",
+    "JUnit.MoneyTest.add.executor": "Run",
+    "JUnit.MoneyTest.getAmount.executor": "Run",
+    "JUnit.MoneyTest.getAmountString.executor": "Run",
+    "JUnit.MoneyTest.subtract.executor": "Run",
     "JUnit.PersonTest.addCharge.executor": "Run",
     "JUnit.PersonTest.getCharge.executor": "Run",
     "JUnit.PersonTest.getName.executor": "Run",
@@ -79,8 +99,8 @@
       <recent name="code" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ItemTest.getPrice">
-    <configuration name="ItemTest.getName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.GroupTest.getTotalDebt">
+    <configuration name="GroupTest.changeGroupName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
         <pattern>
@@ -89,14 +109,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="code" />
-      <option name="MAIN_CLASS_NAME" value="code.ItemTest" />
-      <option name="METHOD_NAME" value="getName" />
+      <option name="MAIN_CLASS_NAME" value="code.GroupTest" />
+      <option name="METHOD_NAME" value="changeGroupName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemTest.getPrice" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupTest.deleteGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
         <pattern>
@@ -105,14 +125,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="code" />
-      <option name="MAIN_CLASS_NAME" value="code.ItemTest" />
-      <option name="METHOD_NAME" value="getPrice" />
+      <option name="MAIN_CLASS_NAME" value="code.GroupTest" />
+      <option name="METHOD_NAME" value="deleteGroup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.addCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupTest.getTotalDebt" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
         <pattern>
@@ -121,14 +141,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="code" />
-      <option name="MAIN_CLASS_NAME" value="code.PersonTest" />
-      <option name="METHOD_NAME" value="addCharge" />
+      <option name="MAIN_CLASS_NAME" value="code.GroupTest" />
+      <option name="METHOD_NAME" value="getTotalDebt" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.getCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupTest.listGroup" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
         <pattern>
@@ -137,14 +157,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="code" />
-      <option name="MAIN_CLASS_NAME" value="code.PersonTest" />
-      <option name="METHOD_NAME" value="getCharge" />
+      <option name="MAIN_CLASS_NAME" value="code.GroupTest" />
+      <option name="METHOD_NAME" value="listGroup" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PersonTest.removeCharge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="GroupTest.listItems" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="CST338-GroupExpences" />
       <extension name="coverage">
         <pattern>
@@ -153,8 +173,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="code" />
-      <option name="MAIN_CLASS_NAME" value="code.PersonTest" />
-      <option name="METHOD_NAME" value="removeCharge" />
+      <option name="MAIN_CLASS_NAME" value="code.GroupTest" />
+      <option name="METHOD_NAME" value="listItems" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -162,11 +182,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ItemTest.getPrice" />
-        <item itemvalue="JUnit.ItemTest.getName" />
-        <item itemvalue="JUnit.PersonTest.removeCharge" />
-        <item itemvalue="JUnit.PersonTest.addCharge" />
-        <item itemvalue="JUnit.PersonTest.getCharge" />
+        <item itemvalue="JUnit.GroupTest.getTotalDebt" />
+        <item itemvalue="JUnit.GroupTest.listItems" />
+        <item itemvalue="JUnit.GroupTest.listGroup" />
+        <item itemvalue="JUnit.GroupTest.deleteGroup" />
+        <item itemvalue="JUnit.GroupTest.changeGroupName" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +206,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746560544174</updated>
       <workItem from="1746560545221" duration="4194000" />
-      <workItem from="1746730544861" duration="2051000" />
+      <workItem from="1746730544861" duration="5071000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <option name="closed" value="true" />
@@ -228,7 +248,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746732257392</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Finished ItemTest.java, should work as intended">
+      <option name="closed" value="true" />
+      <created>1746732755988</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1746732755988</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Finished MoneyTest.java, should work as intended">
+      <option name="closed" value="true" />
+      <created>1746734244445</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746734244445</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,6 +276,8 @@
     <MESSAGE value="Added classes. Finished Item.java and Money.java" />
     <MESSAGE value="Added test files, errors present during testing" />
     <MESSAGE value="Finished PersonTest.java testing, person should work as needed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished PersonTest.java testing, person should work as needed" />
+    <MESSAGE value="Finished ItemTest.java, should work as intended" />
+    <MESSAGE value="Finished MoneyTest.java, should work as intended" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished MoneyTest.java, should work as intended" />
   </component>
 </project>

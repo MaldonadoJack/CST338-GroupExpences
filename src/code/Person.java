@@ -1,6 +1,7 @@
 package code;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class Person {
     public double totalDebt;
@@ -29,6 +30,8 @@ public class Person {
             for (int i = 0; i < charges.size() ; i++) {
                 total += charges.get(i).getAmount();
             }
+        } else {
+            return totalDebt;
         }
         this.totalDebt = total;
         return totalDebt;
@@ -48,5 +51,23 @@ public class Person {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return Double.compare(totalDebt, person.totalDebt) == 0 && Objects.equals(name, person.name) && Objects.equals(charges, person.charges);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(totalDebt, name, charges);
+    }
+
+    @Override
+    public String toString() {
+        return "name: " + name + " total debt: " + getTotalDebt();
     }
 }

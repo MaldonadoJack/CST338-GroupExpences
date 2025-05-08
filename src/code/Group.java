@@ -59,7 +59,7 @@ public class Group {
 
     public void listGroup() {
         if (personList.isEmpty()) {
-            System.out.println("java.Group is empty");
+            System.out.println("Group is empty");
         }
         for (Person person : personList) {
             System.out.print(person + ", ");
@@ -75,8 +75,8 @@ public class Group {
     public Money getTotalDebt() {
         double total = 0;
 
-        for (Person person : personList) {
-            total += person.getTotalDebt();
+        for (int i = 0 ; i < personList.size() ; i++) {
+            total += personList.get(i).getTotalDebt();
         }
 
         return new Money(total);
